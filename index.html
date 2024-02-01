@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript - Introduction : Exercices</title>
+    </head>
+    <body style="padding: 20px;">
+        <script>
+            // Vous rédigerez le code nécessaire à la résolution de chaque exercice (bien lire les consignes).
+            // Les mots entre chevrons (ex : <name>) correspondront à la valeur des variables associées.
+            // Pour plus de lisibilité, vous commenterez le code des exercices précédents en passant à un nouvel exercice.
+            // Le projet sera à rendre via un nouveau dépôt disponible sur votre profil GitHub.
+
+            // == Exercice 1.1 ==
+            // Déclarez une variable : "nb" dont vous définirez librement la valeur.
+            // Vous afficherez le double de la valeur de "nb".
+
+            // let nb=10;
+            // console.log(nb * 2);
+
+            // == Exercice 1.2 ==
+            // Déclarez une variable : "nb" dont vous définirez librement la valeur.
+            // Vous afficherez le carré de la valeur de "nb".
+
+            // let nb = 5;
+            // let nbPow = Math.pow(nb, 2);
+            // console.log(nbPow);
+
+            // == Exercice 1.3 ==
+            // Déclarez trois variables : "name", "age" et "city" dont vous définirez librement les valeurs.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            // let name = "Christophe"
+            // let age = 47;
+            // let city = "Aigueperse"
+            // console.log(`Je m'appelle ${name} j'ai ${age} ans et j'habite à ${city}`)
+
+            // == Exercice 1.3 ==
+            // Déclarez autant de variables que nécessaire. Vous définirez les valeurs de chaque variable afin que 
+            // chaque type primitif soit représenté (hormis le type Symbol).
+            // Indice : il existe 6 types primitifs (sans compter le type Symbol).
+            // Vous afficherez chaque variable ainsi que son type.
+
+//             let varNumber = 5;
+//             let varString = "Hello";
+//             let varBoolean = true;
+//             let varBigInt = 1000000000000n;
+//             let varNull = null;
+//             let varUndefined = undefined;
+
+//             console.log(`${varNumber} est de type number
+// ${varString} est de type string
+// ${varBoolean} est de type Boolean
+// ${varBigInt} est de type bigInt
+// ${varNull} est de type null
+// ${varUndefined} est de type undefined`)
+
+//                 console.log('On peut aussi faire comme ça ' + varNumber  + ' est un ' + typeof(varNumber));
+//                 console.log('On peut aussi faire comme ça ' + varString  + ' est un ' + typeof(varString));
+//                 console.log('On peut aussi faire comme ça ' + varBoolean  + ' est un ' + typeof(varBoolean));
+//                 console.log('On peut aussi faire comme ça ' + varBigInt  + ' est un ' + typeof(varBigInt));
+//                 console.log('On peut aussi faire comme ça ' + varNull  + ' est un ' + typeof(varNull));
+//                 console.log('On peut aussi faire comme ça ' + varUndefined  + ' est un ' + typeof(varUndefined));
+
+            // == Exercice 2 ==
+            // La valeur de la variable "age" de l'Exercice 1 doit maintenant être de type 'number' et être calculée.
+            // Les valeurs des variables "name" et "city" peuvent être définies librement.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            // let name = "Christophe"
+            // let age = 40 + 7;
+            // let city = "Aigueperse"
+            // console.log(`Je m'appelle ${name} j'ai ${age} ans et j'habite à ${city}`)
+
+            // == Exercice 3 ==
+            // Déclarez trois variables : "name", "age" et "city" dont les valeurs seront définies par l'Utilisateur.
+            // Vous afficherez "Je m'appelle <name>, j'ai <age> ans et j'habite à <city>.".
+
+            // let name = prompt('Votre nom');
+            // let age = prompt('Votre age');
+            // let city = prompt('Votre ville');
+            // console.log(`Je m'appelle ${name}, j'ai ${age} ans et j'habite à ${city}`)
+
+            // == Exercice 4 ==
+            // Déclarez deux variables : "nb1" et "nb2" dont les valeurs seront définies par l'Utilisateur.
+            // Vous afficherez la somme, la différence ainsi que le produit des valeurs des variables "nb1" et "nb2".
+
+            // let nb1 = 8;
+            // let nb2 = 3;
+            // let sum = nb1 + nb2;
+            // let difference = nb1 - nb2;
+            // let multiplication = nb1 * nb2;
+
+            // console.log(`La somme des variables = ${sum}, la différence = ${difference}, le produit = ${multiplication}`)
+
+            // == Exercice 5 ==
+            // Indiquez le résultat des opérations suivantes ansi que son type :
+            // Par exemple : 1 + 1 = 2 (number)
+            //
+            // "" + 1 + 0    = 
+
+            // let result = "" + 1 + 0;
+            // console.log('"" + 1 + 0 = ' + result + ' et est de type ' + typeof(result));
+
+            // "" - 1 + 0    = 
+
+            // let result = "" - 1 + 0;
+            // console.log('"" - 1 + 0 = ' + result + ' et est de type ' + typeof(result));
+
+            // true + false  = 
+
+            // let result = true + false;
+            // console.log('true + false = ' + result + ' et est de type ' + typeof(result));
+
+            // 6 / "3"       = 
+
+            // let result =  6 / "3";
+            // console.log(' 6 / "3" = ' + result + ' et est de type ' + typeof(result));
+
+            // "2" * "3"     = 
+
+            // let result =  "2" * "3";
+            // console.log(' "2" * "3" = ' + result + ' et est de type ' + typeof(result));
+
+            // 4 + 5 + "px"  = 
+
+            // let result =  4 + 5 + "px";
+            // console.log('4 + 5 + "px" = ' + result + ' et est de type ' + typeof(result));
+
+            // "$" + 4 + 5   = 
+
+            // let result =  "$" + 4 + 5;
+            // console.log('"$" + 4 + 5 = ' + result + ' et est de type ' + typeof(result));
+
+            // "4" - 2       = 
+
+            // let result =  "4" - 2;
+            // console.log('"4" - 2 = ' + result + ' et est de type ' + typeof(result));
+
+            // "4px" - 2     = 
+
+            // let result =  "4px" - 2;
+            // console.log('"4" - 2 = ' + result + ' et est de type ' + typeof(result));
+
+            // "  -9  " + 5  = 
+
+            // let result = "  -9  " + 5;
+            // console.log('"  -9  " + 5 ' + result + ' et est de type ' + typeof(result));
+
+            // "  -9  " - 5  = 
+
+            // let result = "  -9  " - 5;
+            // console.log('"  -9  " - 5 ' + result + ' et est de type ' + typeof(result));
+
+            // null + 1      = 
+
+            // let result = null + 1;
+            // console.log('null + 1  = ' + result + ' et est de type ' + typeof(result));
+
+            // undefined + 1 = 
+
+            // let result = undefined + 1;
+            // console.log('undefined + 1  = ' + result + ' et est de type ' + typeof(result));
+
+            // " \t \n" - 2  = 
+
+            // let result = " \t \n" - 2;
+            // console.log('" \t \n" - 2  = ' + result + ' et est de type ' + typeof(result));
+
+        </script>
+    </body>
+</html>
